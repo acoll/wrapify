@@ -1,0 +1,9 @@
+{
+  "name": "wrapify",
+  "version": "1.0.0",
+  "description": "Browserify transform to wrap a code block in whatever.",
+  "main": "index.js",
+  "dependencies": {
+    "through2": "rvagg/through2#v2.0.0"
+  }
+}
