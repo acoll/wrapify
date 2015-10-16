@@ -7,7 +7,7 @@ module.exports = function (file, config) {
 	var suffixes = [];
 
 	// fix filename to be relative to module
-	file = file.replace(path.parse(path.resolve('.')).dir + path.sep, '');
+	file = file.replace(path.parse(path.resolve('.')).dir + path.sep, '').replace(/\\/g, '/');
 
 	config.wrappers.forEach(wrapper => {
 		if(file.match(wrapper.pattern)) {
