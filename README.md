@@ -1,4 +1,5 @@
-# A Browserify Transform to wrap modules in whatever
+# wrapify
+Browserify transform to wrap a code block in whatever.
 
 ## Installation
 ```
@@ -53,5 +54,3 @@ and then executing the template function will result in
 <!-- END TEMPLATE: awesome.jade -->
 ```
 
-# wrapify
-Browserify transform to wrap a code block in whatever.
