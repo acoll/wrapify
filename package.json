@@ -1,6 +1,6 @@
 {
   "name": "wrapify",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Browserify transform to wrap a code block in whatever.",
   "main": "index.js",
   "dependencies": {
